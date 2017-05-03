@@ -12,5 +12,5 @@ This app is built for the purpose of easy monitoring of errors occuring in your 
 
 ## Suggestions or feedback?
 
-Feel free to create a pull request, open an issue or find me [on Twitter](https://twitter.com/javalnanda).
+Have an interesting feature that you want to contribute? Feel free to create a pull request, open an issue or find me [on Twitter](https://twitter.com/javalnanda).
 
