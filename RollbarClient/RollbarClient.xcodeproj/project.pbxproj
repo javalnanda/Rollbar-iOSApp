@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C7764941EA9ED4000A8F646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7764931EA9ED4000A8F646 /* AppDelegate.swift */; };
+		9C7764961EA9ED4000A8F646 /* RCLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7764951EA9ED4000A8F646 /* RCLoginViewController.swift */; };
+		9C7764991EA9ED4000A8F646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7764971EA9ED4000A8F646 /* Main.storyboard */; };
+		9C77649B1EA9ED4000A8F646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C77649A1EA9ED4000A8F646 /* Assets.xcassets */; };
+		9C77649E1EA9ED4000A8F646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C77649C1EA9ED4000A8F646 /* LaunchScreen.storyboard */; };
+		9C7764A91EA9ED4100A8F646 /* RollbarClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7764A81EA9ED4100A8F646 /* RollbarClientTests.swift */; };
+		9CEFF41B1EAA35590026E095 /* RCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFF41A1EAA35590026E095 /* RCConstants.swift */; };
+		9CEFF41D1EAA36250026E095 /* RCProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFF41C1EAA36250026E095 /* RCProjectsTableViewController.swift */; };
+		9CEFF4211EAB316D0026E095 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFF4201EAB316D0026E095 /* Project.swift */; };
+		9CF01FBE1EADEA2200D5F93C /* RCItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF01FBD1EADEA2200D5F93C /* RCItemTableViewCell.swift */; };
+		9CF01FC01EADEB9000D5F93C /* RCProjectItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF01FBF1EADEB9000D5F93C /* RCProjectItemsViewController.swift */; };
+		9CF01FC21EADF60600D5F93C /* ProjectToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF01FC11EADF60500D5F93C /* ProjectToken.swift */; };
+		9CF01FC41EADF95700D5F93C /* RollbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF01FC31EADF95700D5F93C /* RollbarItem.swift */; };
+		A483E60D93BEB1F4F5CB3A67 /* Pods_RollbarClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97B5DF2784BFD1F4D43F7F8 /* Pods_RollbarClientTests.framework */; };
+		C3597F3ACD68FE2CD1BEF3A5 /* Pods_RollbarClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A50508A01681C03F42280F /* Pods_RollbarClient.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C7764A51EA9ED4100A8F646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C7764881EA9ED4000A8F646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C77648F1EA9ED4000A8F646;
+			remoteInfo = RollbarClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A50508A01681C03F42280F /* Pods_RollbarClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RollbarClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA0CB1C2373F3B54E6A15B6 /* Pods-RollbarClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollbarClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RollbarClientTests/Pods-RollbarClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		613E61FA4F268FE28B16692B /* Pods-RollbarClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollbarClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RollbarClientTests/Pods-RollbarClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D5753EB9F8B335ECB32348D /* Pods-RollbarClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollbarClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RollbarClient/Pods-RollbarClient.debug.xcconfig"; sourceTree = "<group>"; };
+		9C7764901EA9ED4000A8F646 /* RollbarClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollbarClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7764931EA9ED4000A8F646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C7764951EA9ED4000A8F646 /* RCLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCLoginViewController.swift; sourceTree = "<group>"; };
+		9C7764981EA9ED4000A8F646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C77649A1EA9ED4000A8F646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C77649D1EA9ED4000A8F646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C77649F1EA9ED4000A8F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7764A41EA9ED4100A8F646 /* RollbarClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollbarClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7764A81EA9ED4100A8F646 /* RollbarClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollbarClientTests.swift; sourceTree = "<group>"; };
+		9C7764AA1EA9ED4100A8F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEFF41A1EAA35590026E095 /* RCConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCConstants.swift; sourceTree = "<group>"; };
+		9CEFF41C1EAA36250026E095 /* RCProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCProjectsTableViewController.swift; sourceTree = "<group>"; };
+		9CEFF4201EAB316D0026E095 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		9CF01FBD1EADEA2200D5F93C /* RCItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCItemTableViewCell.swift; sourceTree = "<group>"; };
+		9CF01FBF1EADEB9000D5F93C /* RCProjectItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCProjectItemsViewController.swift; sourceTree = "<group>"; };
+		9CF01FC11EADF60500D5F93C /* ProjectToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectToken.swift; sourceTree = "<group>"; };
+		9CF01FC31EADF95700D5F93C /* RollbarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollbarItem.swift; sourceTree = "<group>"; };
+		D63FE0E5744994229775CD2B /* Pods-RollbarClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollbarClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-RollbarClient/Pods-RollbarClient.release.xcconfig"; sourceTree = "<group>"; };
+		F97B5DF2784BFD1F4D43F7F8 /* Pods_RollbarClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RollbarClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C77648D1EA9ED4000A8F646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3597F3ACD68FE2CD1BEF3A5 /* Pods_RollbarClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7764A11EA9ED4000A8F646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A483E60D93BEB1F4F5CB3A67 /* Pods_RollbarClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B27A853ADA4ACC432C1E86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D5753EB9F8B335ECB32348D /* Pods-RollbarClient.debug.xcconfig */,
+				D63FE0E5744994229775CD2B /* Pods-RollbarClient.release.xcconfig */,
+				1AA0CB1C2373F3B54E6A15B6 /* Pods-RollbarClientTests.debug.xcconfig */,
+				613E61FA4F268FE28B16692B /* Pods-RollbarClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C7764871EA9ED4000A8F646 = {
+			isa = PBXGroup;
+			children = (
+				9C7764921EA9ED4000A8F646 /* RollbarClient */,
+				9C7764A71EA9ED4100A8F646 /* RollbarClientTests */,
+				9C7764911EA9ED4000A8F646 /* Products */,
+				76B27A853ADA4ACC432C1E86 /* Pods */,
+				C717390C9DE171A278D2A1E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7764911EA9ED4000A8F646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7764901EA9ED4000A8F646 /* RollbarClient.app */,
+				9C7764A41EA9ED4100A8F646 /* RollbarClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7764921EA9ED4000A8F646 /* RollbarClient */ = {
+			isa = PBXGroup;
+			children = (
+				9CF01FBC1EADEA0500D5F93C /* View */,
+				9CEFF41F1EAA36C30026E095 /* Models */,
+				9CEFF41E1EAA362D0026E095 /* Controllers */,
+				9CEFF4191EAA35290026E095 /* Helpers */,
+				9C7764931EA9ED4000A8F646 /* AppDelegate.swift */,
+				9C7764971EA9ED4000A8F646 /* Main.storyboard */,
+				9C77649A1EA9ED4000A8F646 /* Assets.xcassets */,
+				9C77649C1EA9ED4000A8F646 /* LaunchScreen.storyboard */,
+				9C77649F1EA9ED4000A8F646 /* Info.plist */,
+			);
+			path = RollbarClient;
+			sourceTree = "<group>";
+		};
+		9C7764A71EA9ED4100A8F646 /* RollbarClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C7764A81EA9ED4100A8F646 /* RollbarClientTests.swift */,
+				9C7764AA1EA9ED4100A8F646 /* Info.plist */,
+			);
+			path = RollbarClientTests;
+			sourceTree = "<group>";
+		};
+		9CEFF4191EAA35290026E095 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9CEFF41A1EAA35590026E095 /* RCConstants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		9CEFF41E1EAA362D0026E095 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C7764951EA9ED4000A8F646 /* RCLoginViewController.swift */,
+				9CEFF41C1EAA36250026E095 /* RCProjectsTableViewController.swift */,
+				9CF01FBF1EADEB9000D5F93C /* RCProjectItemsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9CEFF41F1EAA36C30026E095 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CEFF4201EAB316D0026E095 /* Project.swift */,
+				9CF01FC11EADF60500D5F93C /* ProjectToken.swift */,
+				9CF01FC31EADF95700D5F93C /* RollbarItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9CF01FBC1EADEA0500D5F93C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CF01FBD1EADEA2200D5F93C /* RCItemTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C717390C9DE171A278D2A1E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06A50508A01681C03F42280F /* Pods_RollbarClient.framework */,
+				F97B5DF2784BFD1F4D43F7F8 /* Pods_RollbarClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C77648F1EA9ED4000A8F646 /* RollbarClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7764AD1EA9ED4100A8F646 /* Build configuration list for PBXNativeTarget "RollbarClient" */;
+			buildPhases = (
+				7649E50DFB68BE33208DEB46 /* [CP] Check Pods Manifest.lock */,
+				9C77648C1EA9ED4000A8F646 /* Sources */,
+				9C77648D1EA9ED4000A8F646 /* Frameworks */,
+				9C77648E1EA9ED4000A8F646 /* Resources */,
+				4409E766C86F27431FCE508A /* [CP] Embed Pods Frameworks */,
+				EE84657A63287AF53AEA4BBD /* [CP] Copy Pods Resources */,
+				9CAD1DE91EB3D7F400702B5E /* swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollbarClient;
+			productName = RollbarClient;
+			productReference = 9C7764901EA9ED4000A8F646 /* RollbarClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C7764A31EA9ED4000A8F646 /* RollbarClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7764B01EA9ED4100A8F646 /* Build configuration list for PBXNativeTarget "RollbarClientTests" */;
+			buildPhases = (
+				33EF42D5DC78691D8F9D87AD /* [CP] Check Pods Manifest.lock */,
+				9C7764A01EA9ED4000A8F646 /* Sources */,
+				9C7764A11EA9ED4000A8F646 /* Frameworks */,
+				9C7764A21EA9ED4000A8F646 /* Resources */,
+				2D242A0CF3C45D6080D0E9AE /* [CP] Embed Pods Frameworks */,
+				441421F279DC68BE356DDAEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7764A61EA9ED4100A8F646 /* PBXTargetDependency */,
+			);
+			name = RollbarClientTests;
+			productName = RollbarClientTests;
+			productReference = 9C7764A41EA9ED4100A8F646 /* RollbarClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7764881EA9ED4000A8F646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Javal Nanda";
+				TargetAttributes = {
+					9C77648F1EA9ED4000A8F646 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = H328QTHKE8;
+						ProvisioningStyle = Manual;
+					};
+					9C7764A31EA9ED4000A8F646 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C77648F1EA9ED4000A8F646;
+					};
+				};
+			};
+			buildConfigurationList = 9C77648B1EA9ED4000A8F646 /* Build configuration list for PBXProject "RollbarClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C7764871EA9ED4000A8F646;
+			productRefGroup = 9C7764911EA9ED4000A8F646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C77648F1EA9ED4000A8F646 /* RollbarClient */,
+				9C7764A31EA9ED4000A8F646 /* RollbarClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C77648E1EA9ED4000A8F646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C77649E1EA9ED4000A8F646 /* LaunchScreen.storyboard in Resources */,
+				9C77649B1EA9ED4000A8F646 /* Assets.xcassets in Resources */,
+				9C7764991EA9ED4000A8F646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7764A21EA9ED4000A8F646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D242A0CF3C45D6080D0E9AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RollbarClientTests/Pods-RollbarClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33EF42D5DC78691D8F9D87AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4409E766C86F27431FCE508A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RollbarClient/Pods-RollbarClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		441421F279DC68BE356DDAEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RollbarClientTests/Pods-RollbarClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7649E50DFB68BE33208DEB46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAD1DE91EB3D7F400702B5E /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		EE84657A63287AF53AEA4BBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RollbarClient/Pods-RollbarClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C77648C1EA9ED4000A8F646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEFF41D1EAA36250026E095 /* RCProjectsTableViewController.swift in Sources */,
+				9CEFF4211EAB316D0026E095 /* Project.swift in Sources */,
+				9CF01FC01EADEB9000D5F93C /* RCProjectItemsViewController.swift in Sources */,
+				9C7764961EA9ED4000A8F646 /* RCLoginViewController.swift in Sources */,
+				9C7764941EA9ED4000A8F646 /* AppDelegate.swift in Sources */,
+				9CF01FC21EADF60600D5F93C /* ProjectToken.swift in Sources */,
+				9CF01FC41EADF95700D5F93C /* RollbarItem.swift in Sources */,
+				9CEFF41B1EAA35590026E095 /* RCConstants.swift in Sources */,
+				9CF01FBE1EADEA2200D5F93C /* RCItemTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7764A01EA9ED4000A8F646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7764A91EA9ED4100A8F646 /* RollbarClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C7764A61EA9ED4100A8F646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C77648F1EA9ED4000A8F646 /* RollbarClient */;
+			targetProxy = 9C7764A51EA9ED4100A8F646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C7764971EA9ED4000A8F646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7764981EA9ED4000A8F646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C77649C1EA9ED4000A8F646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C77649D1EA9ED4000A8F646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C7764AB1EA9ED4100A8F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C7764AC1EA9ED4100A8F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7764AE1EA9ED4100A8F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5753EB9F8B335ECB32348D /* Pods-RollbarClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H328QTHKE8;
+				INFOPLIST_FILE = RollbarClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faodailtechnology.rollbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6c4aacb3-d601-4426-996d-e79f6fa73b13";
+				PROVISIONING_PROFILE_SPECIFIER = "rollbar development profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C7764AF1EA9ED4100A8F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63FE0E5744994229775CD2B /* Pods-RollbarClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Faodail Technology Private Limited (H328QTHKE8)";
+				DEVELOPMENT_TEAM = H328QTHKE8;
+				INFOPLIST_FILE = RollbarClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faodailtechnology.rollbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d0d1e04-dd6a-465a-922b-d60b23217e56";
+				PROVISIONING_PROFILE_SPECIFIER = "Rollbar appstore profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C7764B11EA9ED4100A8F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA0CB1C2373F3B54E6A15B6 /* Pods-RollbarClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollbarClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faodailtechnology.RollbarClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollbarClient.app/RollbarClient";
+			};
+			name = Debug;
+		};
+		9C7764B21EA9ED4100A8F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613E61FA4F268FE28B16692B /* Pods-RollbarClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollbarClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faodailtechnology.RollbarClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollbarClient.app/RollbarClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C77648B1EA9ED4000A8F646 /* Build configuration list for PBXProject "RollbarClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7764AB1EA9ED4100A8F646 /* Debug */,
+				9C7764AC1EA9ED4100A8F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7764AD1EA9ED4100A8F646 /* Build configuration list for PBXNativeTarget "RollbarClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7764AE1EA9ED4100A8F646 /* Debug */,
+				9C7764AF1EA9ED4100A8F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7764B01EA9ED4100A8F646 /* Build configuration list for PBXNativeTarget "RollbarClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7764B11EA9ED4100A8F646 /* Debug */,
+				9C7764B21EA9ED4100A8F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7764881EA9ED4000A8F646 /* Project object */;
+}
