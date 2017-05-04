@@ -1,17 +1,8 @@
 language: swift
 osx_image: xcode8.3
-
+xcode_workspace: RollbarClient/RollbarClient.xcworkspace
+xcode_sdk: iphonesimulator10.3
+podfile: RollbarClient/Podfile
 branches:
   only:
     - master
-
-before_install:
-  - rvm install ruby-2.4.1
-  - gem install cocoapods
-  - gem install xcpretty -N
-  - brew update
-  - brew install swiftlint || true
-script:
-  - set -o pipefail
-  - xcodebuild -workspace RollbarClient.xcworkspace -scheme RollbarClient -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  - swiftlint

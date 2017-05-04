@@ -1,8 +1,0 @@
-language: swift
-osx_image: xcode8.3
-xcode_workspace: RollbarClient/RollbarClient.xcworkspace
-xcode_sdk: iphonesimulator10.3
-podfile: RollbarClient/Podfile
-branches:
-  only:
-    - master
